@@ -6,12 +6,28 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import { Metadata } from "next";
+import { getCldOgImageUrl } from 'next-cloudinary';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+export const metadata: Metadata = {
+	title: 'Clément Serizay | Portfolio',
+	description: 'Je suis un développeur full-stack Javascript/PHP.',
+	openGraph: {
+		title: 'Clément Serizay | Portfolio',
+		description: 'Je suis un développeur full-stack Javascript/PHP.',
+		images: [
+			{
+				url: getCldOgImageUrl({
+					src: 'ncdewkvuk7dalwlsjzai',
+				}),
+				width: 1200,
+				height: 627,
+			},
+		],
+	},
 };
 
 export default function RootLayout({
