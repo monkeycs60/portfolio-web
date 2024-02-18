@@ -1,7 +1,5 @@
 # Clément Serizay's React Next.js Developer Portfolio
 
-[Production Environment]([https://restaurant-app-67d7.vercel.app/](https://www.clementserizay.com/))
-
 ## https://www.clementserizay.com/
 
 ## Technologies & Outils
