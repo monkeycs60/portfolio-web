@@ -2,7 +2,7 @@
 
 ## https://www.clementserizay.com/
 
-## Technologies & Outils
+## Stack
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-black?style=flat-square&logo=framer&logoColor=blue)
